@@ -1,62 +1,31 @@
 ﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
+<link rel="stylesheet" type="text/css" href="css.css">
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
 	<title>VR 学校宣伝</title>
-
-<link rel="stylesheet" type="text/css" href="css.css">
-<link rel="stylesheet" href="meanmenu.css" >
-
-<script src="http://code.jquery.com/jquery-1.9.1.js"></script> 
-<script src="jquery.meanmenu.js"></script>
-<script>
-$(document).ready(function() {
-$('nav').meanmenu();
-meanMenuClose: "x", // クローズボタン
-meanMenuCloseSize: "18px", // クローズボタンのフォントサイズ
-meanMenuOpen: "", // 通常ボタン
-meanRevealPosition: "right", // 表示位置
-meanRevealColour: "", // 背景色
-meanScreenWidth: "480", // 表示させるウィンドウサイズ(ブレイクポイント)
-});
-</script>
-
 </head>
 
 <body>
 
-<h1>VR　学校宣伝　<br></h1>
-
-<header>
+<h1>VR　学校宣伝　<br>
 <nav>
-
-<ul>
-<b>	学校案内</b><br>
-<li>1号館</li>　<br>
-<li>2号館</li>　<br>
-<li>4号館</li>　<br>
-<li>5号館</li>　<br>
-<li>6号館</li>　<br>
-<li><a href="./Building7.html">7号館</a></li>　
-<li><a href="./cafeteria.html">学食</a></li>　
-<li><a href="./library.html">図書館</a></li>
-</ul>
-
-</header>
+	<ul>
+		<li><a href="./cafeteria.html">学食</a>
+		<li><a href="#">Top Level Link</a></li>
+		<li><a href="#">Top Level Link</a></li>
+		<li><a href="#">Top Level Link</a></li>
+	</ul>
 </nav>
+</h1>
 
-このサイトでは、スマートフォンのアプリ「youtube」を使用します。<br>
-
-アプリDL先<br>
-
-<li>youtube<br>
-<a href="https://itunes.apple.com/jp/app/youtube/id544007664?mt=8">iPhone</a><br>
-<a href="https://play.google.com/store/apps/details?id=com.google.android.youtube&hl=ja">Android</a><br>
-
-VR使い方<br>
-１,リンクを開いた後youtubeの動画が埋め込まれているので、題名部分をタップし、アプリのyoutubeで開く。<br>
-２,動画再生時に動画部分右下にあるcard boardのボタンをタップし、card boardを装着して視聴する。<br>
-
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+<script type="text/javascript" src="./jquery.meanmenu.js"></script> 
+<script>
+	jQuery(document).ready(function () {
+	    jQuery('nav').meanmenu();
+	});
+</script>
 </body>
 </html>
