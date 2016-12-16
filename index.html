@@ -1,15 +1,17 @@
 ﻿<!DOCTYPE html>
 <html lang="ja">
 <head>
-<link rel="stylesheet" type="text/css" href="css.css">
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 	<title>VR 学校宣伝</title>
+	<link rel="stylesheet" href="./css/meanmenu.css" />
+	<link rel="stylesheet" href="./css.css" />
+	
 </head>
 
 <body>
 
-<h1>VR　学校宣伝　<br>
+<h1>VR　学校宣伝　<br></h1>
 <nav>
 	<ul>
 		<li><a href="./cafeteria.html">学食</a>
@@ -18,13 +20,11 @@
 		<li><a href="#">Top Level Link</a></li>
 	</ul>
 </nav>
-</h1>
-
-<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
-<script type="text/javascript" src="./jquery.meanmenu.js"></script> 
-<script>
-	jQuery(document).ready(function () {
-	    jQuery('nav').meanmenu();
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="./js/jquery.meanmenu.js"></script>
+	<script>
+	$(function(){
+	  $('nav').meanmenu();
 	});
 </script>
 </body>
