@@ -1,23 +1,17 @@
 ﻿<!DOCTYPE html>
-<html lang="ja">
+<html>
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
-<title>MeanMenu Demo</title>
-<link rel="stylesheet" href="meanmenu.css" />
-<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-<script src="jquery.meanmenu.js"></script>
+<meta charset="UTF-8" />
+<title>MeanMenu - jQueryプラグインまとめのコピペ</title>
+<link rel="stylesheet" href="./meanmenu.css" media="all" />
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="./jquery.meanmenu.js"></script>
 <script>
-$(document).ready(function() {
-$('nav').meanmenu({
-meanMenuClose: "x", // クローズボタン
-meanMenuCloseSize: "18px", // クローズボタンのフォントサイズ
-meanMenuOpen: "<span /><span /><span />", // 通常ボタン
-meanRevealPosition: "right", // 表示位置
-meanRevealColour: "", // 背景色
-meanScreenWidth: "480", // 表示させるウィンドウサイズ(ブレイクポイント)
+jQuery(document).ready(function () {
+jQuery('header nav').meanmenu();
 });
 </script>
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
 </head>
 <body>
 <header>
@@ -33,7 +27,7 @@ meanScreenWidth: "480", // 表示させるウィンドウサイズ(ブレイク�
 <ul>
 <li><a href="#">Fourth Level Link</a></li>
 <li><a href="#">Fourth Level Link</a></li>
-<li><a href="#">Fourth Level Link with extra long name so it wraps</a>
+<li><a href="#">Fourth Level Link</a>
 <ul>
 <li><a href="#">Fifth Level Link</a></li>
 <li><a href="#">Fifth Level Link</a></li>
@@ -54,5 +48,7 @@ meanScreenWidth: "480", // 表示させるウィンドウサイズ(ブレイク�
 </ul>
 </nav>
 </header>
+<h1>MeanMenuのデモでーす。</h1>
+<p>ブラウザの横幅を縮めてください。480pxより小さくなると……。</p>
 </body>
 </html>
